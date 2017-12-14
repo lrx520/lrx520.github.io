@@ -1,0 +1,621 @@
+
+/*Demo styles*/
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*第一屏开始*/
+.swiper-slide.one{
+    background: url(../img/bg.png);
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.one .top{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+
+}
+.swiper-slide.one .top .Img1{
+    position: absolute;
+    width:100%;
+    top:-64%;
+    right:0;
+    left:0;
+}
+.swiper-slide.one .center{
+    width: 70%;
+    height: 65%;
+    position: absolute;
+    top: 20%;
+
+    left: 15%;
+}
+.swiper-slide.one .center .Img2{
+    width:100%;
+}
+.swiper-slide.one .center .Img3{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.swiper-slide.one .center .Img4{
+    width: 118%;
+    position: absolute;
+    top: 31%;
+    left: -10%;
+}
+.swiper-slide.one .center .Img5{
+    width: 40%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+.swiper-slide.one .center p{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: 微软雅黑;
+    font-size: 5vw;
+    top: 77%;
+    left: 12%;
+}
+.swiper-slide.one .center h3{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: 微软雅黑;
+    font-size: 5vw;
+    top: 85%;
+    left: 12%;
+}
+.swiper-slide.one .bottom{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    bottom:-7%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+.swiper-slide.one .bottom .Img6{
+    width:100%;
+    position: absolute;
+    bottom:-15%;
+    left:0;
+    right:0;
+}
+.swiper-slide.one .bottom .Img7{
+    width:100%;
+    position: absolute;
+    bottom:33%;
+    left:0;
+    right:0;
+}
+/*第一屏结束*/
+
+/*第二屏开始*/
+.swiper-slide.two{
+    background: url(../img/bg.png);
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative;
+
+}
+.swiper-slide.two .top{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+
+}
+.swiper-slide.two .top .Img{
+    position: absolute;
+    width: 80%;
+    top: 37%;
+    height: 40%;
+    right: 0;
+    left: 38px;
+}
+.swiper-slide.two .top .Img1{
+    position: absolute;
+    width:100%;
+    top:-64%;
+    right:0;
+    left:0;
+}
+.swiper-slide.two .top span{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 4vw;
+    top: 39%;
+    left: 12%;
+}
+.swiper-slide.two .top p{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 6vw;
+    top: 37%;
+    left: 12%;
+}
+.swiper-slide.two .center{
+    width:80%;
+    height:59%;
+
+    position: absolute;
+    top:23%;
+    left:9%;
+}
+.swiper-slide.two .center .Img2{
+    width:55%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.swiper-slide.two .center .Img3{
+    width:55%;
+    position: absolute;
+    left:3%;
+    top:3%;
+}
+.swiper-slide.two .center .Img4{
+    width: 55%;
+    position: absolute;
+    left: 45%;
+    top: 18%;
+}
+.swiper-slide.two .center .Img5{
+    width:55%;
+    position: absolute;
+    left:41%;
+    top:22%;
+}
+.swiper-slide.two .center .P{
+    width: 80%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: 微软雅黑;
+    font-size: 3vw;
+    line-height: 1.8;
+    top: 54%;
+    left: 10%;
+}
+.swiper-slide.two .bottom{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    bottom:-7%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+
+.swiper-slide.two .bottom .Img6{
+    width:100%;
+    position: absolute;
+    bottom:-15%;
+    left:0;
+    right:0;
+}
+.swiper-slide.two .bottom .Img7{
+    width:100%;
+    position: absolute;
+    bottom:33%;
+    left:0;
+    right:0;
+}
+
+/*第二屏结束*/
+
+/*第三屏开始*/
+.swiper-slide.three{
+    background: url(../img/bg.png);
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.three .top{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+
+}
+.swiper-slide.three .top .Img{
+    position: absolute;
+    width: 80%;
+    top: 37%;
+    height: 40%;
+    right: 0;
+    left: 38px;
+}
+.swiper-slide.three .top .Img1{
+    position: absolute;
+    width:100%;
+    top:-64%;
+    right:0;
+    left:0;
+}
+.swiper-slide.three .top span{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 4vw;
+    top: 39%;
+    left: 12%;
+}
+.swiper-slide.three .top p{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 6vw;
+    top: 37%;
+    left: 12%;
+}
+.swiper-slide.three .center{
+    width:80%;
+    height:50%;
+
+    position: absolute;
+    top:25%;
+    left:9%;
+
+}
+.swiper-slide.three .center .P{
+    width: 90%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    line-height: 1.8;
+    font-weight: bold;
+    font-size: 3.5vw;
+    top: -18%;
+    left: 6%;
+
+}
+.swiper-slide.three .bottom{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    bottom:-7%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+.swiper-slide.three .bottom .Img6{
+    width:100%;
+    position: absolute;
+    bottom:-15%;
+    left:0;
+    right:0;
+}
+.swiper-slide.three .bottom .Img7{
+    width:100%;
+    position: absolute;
+    bottom:33%;
+    left:0;
+    right:0;
+}
+
+/*第三屏结束*/
+
+/*第四屏开始*/
+
+.swiper-slide.four{
+    background: url(../img/bg.png);
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.four .top{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+
+}
+.swiper-slide.four .top .Img{
+    position: absolute;
+    width: 80%;
+    top: 37%;
+    height: 40%;
+    right: 0;
+    left: 38px;
+}
+.swiper-slide.four .top .Img1{
+    position: absolute;
+    width:100%;
+    top:-64%;
+    right:0;
+    left:0;
+}
+.swiper-slide.four .top span{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 4vw;
+    top: 39%;
+    left: 12%;
+}
+.swiper-slide.four .top p{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 6vw;
+    top: 37%;
+    left: 12%;
+}
+.swiper-slide.four .center{
+    width:80%;
+
+    height:80%;
+    position: absolute;
+    top:10%;
+    left:9%;
+}
+.swiper-slide.four .center .Img2{
+    width: 56%;
+    position: absolute;
+    top: 13%;
+    left: -2%;
+}
+.swiper-slide.four .center .Img3{
+    width: 48%;
+    position: absolute;
+    top: 16%;
+    left: 2%;
+}
+.swiper-slide.four .center .Img4{
+    width: 56%;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+}
+.swiper-slide.four .center .Img5{
+    width: 48%;
+    position: absolute;
+    top: 41%;
+    left: 54%;
+}
+.swiper-slide.four .center .Img0{
+    width: 55%;
+    position: absolute;
+    top: 65%;
+    left: -2%;
+}
+.swiper-slide.four .center .Img8{
+    width: 47%;
+    position: absolute;
+    top: 68%;
+    left: 2%;
+}
+.swiper-slide.four .bottom{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    bottom:-7%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+.swiper-slide.four .bottom .Img6{
+    width:100%;
+    position: absolute;
+    bottom:-15%;
+    left:0;
+    right:0;
+}
+.swiper-slide.four .bottom .Img7{
+    width:100%;
+    position: absolute;
+    bottom:33%;
+    left:0;
+    right:0;
+}
+
+/*第四平结束*/
+
+/*第五屏开始*/
+.swiper-slide.five{
+    background: url(../img/bg.png);
+    background-color: #000;
+    background-size: 100% 100%;
+    position: relative;
+}
+.swiper-slide.five .top{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+
+}
+.swiper-slide.five .top .Img{
+    position: absolute;
+    width: 80%;
+    top: 37%;
+    height: 40%;
+    right: 0;
+    left: 38px;
+}
+.swiper-slide.five .top .Img1{
+    position: absolute;
+    width:100%;
+    top:-64%;
+    right:0;
+    left:0;
+}
+.swiper-slide.five .top span{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 4vw;
+    top: 39%;
+    left: 12%;
+}
+.swiper-slide.five .top p{
+    width: 75%;
+    position: absolute;
+    color: #f1dfb7;
+    font-family: "宋体";
+    font-weight: bold;
+    font-size: 6vw;
+    top: 37%;
+    left: 12%;
+}
+.swiper-slide.five .center{
+    width: 80%;
+
+    height: 56%;
+    position: absolute;
+    top: 20%;
+    left: 9%;
+    border-radius: 10%;
+    background: rgba(255, 255, 255, 0.09);
+
+}
+.swiper-slide.five .center input{
+    padding:3% 10%;
+    border:2px solid #f1dfb7;
+}
+
+.swiper-slide.five .bottom{
+
+    width:100%;
+    height:20%;
+    position: absolute;
+    bottom:-7%;
+    left:0;
+    right:0;
+    overflow: hidden;
+}
+.swiper-slide.five .bottom .Img6{
+    width:100%;
+    position: absolute;
+    bottom:-15%;
+    left:0;
+    right:0;
+}
+.swiper-slide.five .bottom .Img7{
+    width:100%;
+    position: absolute;
+    bottom:33%;
+    left:0;
+    right:0;
+}
+/*第五屏结束*/
+
+.swiper-button-next{
+    background: url("../img/jiantou.png");
+    width:15%;
+    position: absolute;
+    bottom: 0%;
+    top: auto;
+    left: 44%;
+    transform: rotateZ(-360deg);
+    animation: move 1s linear infinite;
+}
+@keyframes move{
+    from{
+        bottom:1%;
+        opacity: 0;
+    }
+    to{
+        bottom:5%;
+        opacity: 0.3;
+    }
+}
+/*音乐开始*/
+#music{
+    width: 27px;
+    height: 27px;
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 9;
+}
+#music .musicImg{
+    position: absolute;
+    top:11%;
+    right:12%;
+    animation: music 2s linear infinite;
+}
+@keyframes music{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+/*音乐结束*/

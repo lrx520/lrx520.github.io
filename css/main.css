@@ -588,8 +588,8 @@ body {
 
 .swiper-button-next{
     background: url("../img/jiantou.png");
-    width:20%;
-    height:6%;
+    width:60px;
+    height:24px;
     position: absolute;
     bottom: 0%;
     top: auto;

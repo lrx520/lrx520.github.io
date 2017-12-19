@@ -320,6 +320,13 @@ body {
     left:9%;
 
 }
+.swiper-slide.three .center .Imgll{
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    top: 80%;
+    left: 1%;
+}
 .swiper-slide.three .center .P{
     width: 90%;
     position: absolute;
@@ -582,6 +589,7 @@ body {
 .swiper-button-next{
     background: url("../img/jiantou.png");
     width:15%;
+    height:6%;
     position: absolute;
     bottom: 0%;
     top: auto;
